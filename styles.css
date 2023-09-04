@@ -10,8 +10,15 @@ body {
     background-color: #f0f0f0;
 }
 
+a { color:red } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:gray }
+
 header {
-    background-color: #333;
+    background-color: lightgray;
     color: #fff;
     text-align: center;
     padding: 20px 0;
